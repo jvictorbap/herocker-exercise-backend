@@ -29,5 +29,5 @@ jobs:
           with:
             node-version: 14
 
-        - name: rodando os testes
+        - name: Roda os testes
           run: npm test
