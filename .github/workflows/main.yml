@@ -18,6 +18,7 @@ jobs:
         - name: executando o lint para verificar se a erros
           run: npx eslint .
   tests:
+    needs: [eslint] 
     runs-on: ubuntu-latest
     steps:
         - name: Verifica o repositório do Git
