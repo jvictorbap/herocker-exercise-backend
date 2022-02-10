@@ -1,3 +1,4 @@
+/* eslint-disable mocha/no-hooks-for-single-case */
 const supertest = require('supertest');
 const app = require('../src/api/app');
 const { User } = require('../src/models');
