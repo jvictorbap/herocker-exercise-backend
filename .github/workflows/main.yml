@@ -29,5 +29,8 @@ jobs:
           with:
             node-version: 14
 
+        - name: Instala o jest 
+          run: npm install jest
+
         - name: Roda os testes
           run: npm test
